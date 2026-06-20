@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+coverage/
+playwright-report/
+test-results/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Media/temp
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.tmp
+uploads/
+renders/
+
+# Logs
+*.log
+logs/
